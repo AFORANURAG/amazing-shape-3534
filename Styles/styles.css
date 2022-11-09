@@ -1,47 +1,82 @@
-.responsive_navbar{
-  margin-top: -10px;  
-  display: flex;
-  height: 140px;
-  background-color: #317cff;
-  margin-left:-10px;
-  margin-right: -10px;
-align-items: center;
-}#ourlogo{
-    width: 17%;
-    height: 100%;
-    margin-left: 50px;
-}
-.getappcontent{
-    height: 200px;
-    width: 270px;
-    font-size: 30px;
-    display: none;
-    position: absolute;
-    background-color:#317cff;
-    min-width: 160px;
-    z-index: 1;
-    
-}
-.getappcontent a{
-text-decoration: none;
-color: white;
-text-align: center;
+
+#ourlogo{
+float: left;
+width: 10%;
+height: 150px;
 margin-left: 20px;
 }
-.getappbtn{
-font-size: 30px;
-border-radius:10px ;
-border: none;
-background-color: #317cff;
-color: white;
-}
-.getapp:hover .getappcontent{
+.navbar {
+    overflow: hidden;
+    background-color:#317cff;
+padding-left: 20px;
+padding-right: 20px;
+}  
+.navbar a {
+    float: left;
     display: block;
-}.getappbtn:hover{
-    cursor: pointer;
-}.getapp{
-    margin-left: 20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .navbar .icon {
+    display: none;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    /* float left property is acting like it is making things inline or something like that because div is block level but after
+    doing float left for all dropdowns everything is becomng like inline. */
+  }.navbar>a{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+margin-top: 50px ;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
 }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+background-color: #317cff;  
+}
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:inherit;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* second dropdown ( copy paste from first one) */
 /* #workoutcontent{
@@ -72,14 +107,7 @@ color: white;
 }#Workout-Plans{
     margin-left: 30px;
 } */
-.responsive_navbar>a{
-align-items: center;
-color:white;
-font-size:30px ;
-margin-left:30px ;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-}
+
 /* third dropdown */
 /* #communitycontent{
 height: 200px;
@@ -119,54 +147,58 @@ color: white;
     font-size: 30px;
     border: 1px solid white;
     border-radius: 10px;
-}.icon{
-    display: none;
+margin-top:-40px ;
 }
 /* finally media queries for responsiveness*/
 /* so the logic is that for small screen we are going to erase all content for one class 
 and the other class is going to make the navbar suitable for small screen
 */
+
 @media screen and (max-width: 600px) {
-    .responsive_navbar a:not(:first-child), .getapp .getappbtn {
+    .navbar a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
-     a.icon {
+    .navbar a.icon {
       float: right;
       display: block;
+    }#ourlogo{
+       margin-left: 0px;
+       width: 30%; 
     }
   }
   
   @media screen and (max-width: 600px) {
-    .responsive_navbar .responsive_hogaya {position: relative;}
-    .responsive_navbar .responsive_hogaya .icon {
+    .ournavbar {position: relative;}
+    .ournavbar .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .responsive_navbar .responsive_hogaya a {
+    .navbar.ournavbar a {
       float: none;
       display: block;
       text-align: left;
     }
-    .responsive_navbar .responsive_hogaya .getapp {float: none;}
-    .responsive_navbar .responsive_hogaya .getappcontent {position: relative;}
-    .responsive_navbar .responsive_hogaya .getapp .getappbtn {
+    .navbar.ournavbar .dropdown {float: none;}
+    .navbar.ournavbar .dropdown-content {position: relative;}
+    .navbar.ournavbar .dropdown .dropbtn {
       display: block;
       width: 100%;
       text-align: left;
+ }.navbar.ournavbar .dropdown:hover .dropdown-content {
+display: block;
+    }.navbar.ournavbar>#image{
+width: 20%;
+border: 1px solid black;
+position: relative;
+left:0 ;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar.ournavbar>#ourlogo{
+    width: 30%;
+    margin-left: 0px;
+}#getappmain{
+  margin-top:160px;  
+} .icon{
+    font-size: 20px;
+}  
   }
