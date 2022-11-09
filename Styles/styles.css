@@ -118,7 +118,6 @@ position: absolute;
 background-color:#317cff;
 min-width: 160px;
 z-index: 1; */
-    
 /* }#communitycontent a{
     text-decoration: none;
     margin-left: 15px;
@@ -166,7 +165,6 @@ and the other class is going to make the navbar suitable for small screen
        width: 30%; 
     }
   }
-  
   @media screen and (max-width: 600px) {
     .ournavbar {position: relative;}
     .ournavbar .icon {

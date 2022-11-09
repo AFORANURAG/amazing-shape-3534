@@ -1,10 +1,11 @@
+
 const navbar=()=>{
-    let x = document.getElementById("ournavbar");
-    if (x.className === "responsive_navbar") {
-        console.log(x)
-      x.className += " responsive_hogaya";
-    } else {
+  let x = document.getElementById("navbarid");
+  if (x.className === "navbar") {
       console.log(x)
-      x.className = "responsive_navbar";
-    }
+    x.className += " ournavbar";
+  } else {
+    console.log(x)
+    x.className="navbar";
   }
+}
