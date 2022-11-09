@@ -1,17 +1,16 @@
-@media screen and (min-device-width: 769px) and (max-device-width: 2000px) { 
+
     #ourlogo{
         float: left;
         width: 10%;
         height: 150px;
         margin-left: 20px;
-        }
-        
-        
+    }
         .navbar {
             overflow: hidden;
             background-color:#317cff;
         padding-left: 20px;
         padding-right: 20px;
+        height: auto;
         }  
         .navbar a {
             float: left;
@@ -150,7 +149,7 @@
             border-radius: 10px;
         margin-top:-40px ;
         }    
-}
+
 /* finally media queries for responsiveness*/
 /* so the logic is that for small screen we are going to erase all content for one class 
 and the other class is going to make the navbar suitable for small screen
