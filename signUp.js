@@ -16,7 +16,7 @@ class User {
 
     validatePassword(password) {
         let cpwd = document.getElementById('confirm_password').value;
-        if(password != cpwd){
+        if(cpwd != password){
             alert('password not matching')
             return false
         }
@@ -33,6 +33,7 @@ class User {
         // else if (cpwd != password) {
         //     return false
         // }
+        
         else { 
             return true
         }
@@ -49,7 +50,6 @@ class User {
             this.password = password;
             this.mobile = mobile
             this.description = description;
-            // this.cpwd = cpwd;
 
             const register_api = `https://masai-api-mocker.herokuapp.com/auth/register`;
 
@@ -83,17 +83,12 @@ const Register = () => {
 
     let signUp_form = document.getElementById('signUp_form');
 
-    // let username = signUp_form.username.value;
-    // let email = signUp_form.email.value;
-    // let password = signUp_form.password.value;
-    // let cpwd = signUp_form.confirm_password.value;
-
-    const name = "boss";
+    const name = "Signup";
     const email = signUp_form.email.value;
     const username = signUp_form.username.value;
     const password = signUp_form.password.value;
     const mobile = "9886788888";
-    const description = "mohini";
+    const description = "Register";
 
 
     user_data.signUp(name,email,username, password,mobile,description);
