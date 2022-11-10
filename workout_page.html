@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Styles/workout_page.css">
     <!-- <link rel="stylesheet" href="../Styles/styles.css"> -->
-    <style>
+    <!-- <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        html {
+            font-size: 62.5%;
+            /* : 62.5%;; */
+        }
 
         body {
             padding:0;
@@ -14,8 +21,8 @@
         }
         #navbarid{
             width:100%;
-            height:80px;
-            border:1px solid red;
+            height:8.0rem;
+            border:.1rem solid red;
             background-color: blue;
         }
 
@@ -25,7 +32,7 @@
             text-align: center
         }
       .slideshow_div{
-        height:400px;
+        height:40.0rem;
       }
 
       .filter{
@@ -43,7 +50,7 @@
         width:80%;
         /* text-align: center !important; */
         margin:auto;
-        border: 1px solid red;
+        border: .1rem solid red;
       }
 
       .ulheading{
@@ -53,52 +60,87 @@
         list-style: none;
 
       }
+
+      #filterDisplayHeading{
+        display: flex;
+        height:2.0rem;
+        justify-content: space-around;
+        /* text-align: center; */
+        align-items: center;
+        background-color: #DBDBDD;
+        }
+
+      #filterDisplayData{
+        display: flex;
+       
+        justify-content: space-around;
+        /* text-align: center; */
+        align-items: center;
+      }
+
+      .bgclrGrey{
+        background-color: #F4F4F4;
+      }
      
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+      @media screen and (max-width:480px) {
+        html{
+            font-size: 45%;;
+            background-color: cyan;
+        }
+      }
+      @media screen and (min-width:480px) and (max-width:720px) {
+        html{
+            font-size: 55%;
+            background-color: green;
+        }
+      }
 
 
-    </style>
+    </style> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- <div class="navbar" id="navbarid"> </div> -->
     <div id="navbarid"></div>
 <div id="midSection">
-    <h1 class="sansfont">JEFIT Workout Routine Database</h1>
-    <h2 class="sansfont">Featured Workout plans</h2>
-    <p class="sansfont">Try one of these professionally designed workout plans</p>
+    <h1 class="sansfont h1Size">JEFIT Workout Routine Database</h1>
+    <h2 class="sansfont h2Size">Featured Workout plans</h2>
+    <p class="sansfont pSize">Try one of these professionally designed workout plans</p>
    
     <div class="slideshow_div">cxvvdfs</div>
    
     <h2 class="sansfont">Jefit Workout plans</h2>
-    <p class="sansfont">Filter results down to your specific needs and find a new plan</p>
+    <p class="sansfont pSize">Filter results down to your specific needs and find a new plan</p>
 
     <div class="filter">
         <label>
-            <input type="radio">
+            <input type="radio" name="gender" value="male">
             Male
         </label>
         <label> 
-            <input type="radio">
+            <input type="radio"  name="gender" value="male">
             Female
         </label>
         <label> 
-            <input type="radio">
+            <input type="radio"  checked name="gender" value="male">
             Both
         </label>
         <label>
-            <input type="checkbox">
+            <input type="checkbox" checked>
             Routine Name
         </label>
         <label> 
-            <input type="checkbox">
+            <input type="checkbox" checked>
             Routine Tag
         </label>
         <label> 
             <input type="checkbox">
             Routine Description
         </label>
-        <input type="search" placeholder="search...">
-        <button>Search</button>  
+        <input id="searchBar" type="search" placeholder="search...">
+        <button id="searchBtn">Search</button>  
     </div>
 
     <div class="sort_div">
@@ -125,44 +167,67 @@
         </ul>
     </div>
     <div class="filterDisplayDiv">
-    <table>
+    <!-- <table>
         <thead>
             <tr>
-                <td>Plan Name</td>
-                <td>Frequency</td>
-                <td>Category</td>
-                <td>Exp. Level</td>
-                <td>Views/Downloads</td>
-                <td>Created by</td>
-                <td>Elite/Free</td>
+                <th>Plan Name</th>
+                <th>Frequency</th>
+                <th>Category</th>
+                <th>Exp. Level</th>
+                <th>Views/Downloads</th>
+                <th>Created by</th>
+                <th>Elite/Free</th>
             </tr>
         </thead>
 <tbody>
     <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <td> <img style="width:10%;" src="https://www.jefit.com/assets/img/routine/banner-large/wide_general_m.png" alt=""></td>
+        <td>alireza.koochali's 3 Days Plan</td>
+        <td>2 days</td>
+        <td>Maintaining</td>
+        <td>Beginner</td>
+        <td>4/0</td>
+        <td>alireza.koochali</td>
+        <td>Free</td>
     </tr>
 </tbody>
 
-    </table>
+    </table> -->
+        <div id="filterDisplayHeading">
+            <h4></h4>
+            <h4>Plan Name</h4>
+            <h4>Frequency</h4>
+            <h4>Category</h4>
+            <h4>Exp. Level</h4>
+            <h4>Views/Downloads</h4>
+            <h4>Created by</h4>
+            <h4>Elite/Free</h4>
+        </div>
+
+        <div id="filterDisplayBody">
+            <!-- <div id="filterDisplayData" class="bgclrGrey">
+                <img style="width: 5%;" src="https://www.jefit.com/assets/img/routine/banner-large/wide_general_m.png" alt="">
+                <p>alireza.koochali's 3 Days Plan</p>
+                <p>2 days</p>
+                <p>Maintaining</p>
+                <p>Beginner</p>
+                <p>4/0</p>
+                <p>alireza.koochali</p>
+                <p>Free</p>
+            </div> -->
+        </div>
+
+        
+
+
+
+
     </div>
 
-
 </div>
-
-
 
 </body>
 <script type="module" src="../src/workout_page.js"></script>
 <script src="../src/navbarscripting.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
-
-
 
 </html>
