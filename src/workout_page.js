@@ -1,4 +1,10 @@
 // import navbar from "../components/navbar.js"
 
-// document.querySelector("#navbarid").innerHTML = navbar();
+import { data } from "../components/data";
 
+// document.querySelector("#navbarid").innerHTML = navbar();
+data
+
+
+
+    
