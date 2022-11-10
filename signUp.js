@@ -16,16 +16,16 @@ class User {
 
     validatePassword(password) {
         let cpwd = document.getElementById('confirm_password').value;
-        if(cpwd != password){
+        if (cpwd != password) {
             alert('password not matching')
             return false
         }
         // let pwd_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
         else if (password.length < 7) {
-            // alert('Minimum 8 characters needed')
+            alert('Minimum 8 characters needed')
             return false
         }
-        
+
         // else if (!pwd_expression.test(password)) {
         //     // alert ('Upper case, Lower case, Special character and Numeric letter are required in Password');
         //     return false
@@ -33,17 +33,18 @@ class User {
         // else if (cpwd != password) {
         //     return false
         // }
-        
-        else { 
+
+        else {
             return true
         }
     }
 
-    async signUp(name,username, email, password,mobile,description) {
+    async signUp(name, username, email, password, mobile, description) {
 
         let isValidated = this.validateUsername(username) && this.validatePassword(password)
 
         if (isValidated) {
+            
             this.name = name
             this.username = username;
             this.email = email;
@@ -62,18 +63,23 @@ class User {
             });
 
             let data = await response.json();
-            console.log('data',data)
+            console.log('data', data)
+
+             
+
 
         }
     }
+
 }
+
 
 let user_data = new User();
 
 
 
 let register = document.getElementById('CREATE_ACCOUNT');
-register.onclick = () =>{
+register.onclick = () => {
     Register()
 }
 
@@ -83,14 +89,14 @@ const Register = () => {
 
     let signUp_form = document.getElementById('signUp_form');
 
-    const name = "Signup";
+    const name = `ggss`;
     const email = signUp_form.email.value;
     const username = signUp_form.username.value;
     const password = signUp_form.password.value;
-    const mobile = "9886788888";
-    const description = "Register";
+    const mobile = `${email}78978787878`;
+    const description =`${email}doneee`;
 
 
-    user_data.signUp(name,email,username, password,mobile,description);
+    user_data.signUp(name, email, username, password, mobile, description);
     console.log('userData', user_data)
 }
