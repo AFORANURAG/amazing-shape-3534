@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp page</title>
+    <title>Login page</title>
+
     <style>
         body {
             background: #91a0a5ee;
             font-family: 'DM Sans', sans-serif;
+            background-image: url(https://www.jefit.com/images/loginbg.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         #head {
@@ -17,6 +22,7 @@
             color: ghostwhite;
             font-size: 30px;
             font-weight: 800;
+
         }
 
         #container {
@@ -25,6 +31,7 @@
             margin: auto;
             background: #b1f7e6;
             border-radius: 20px;
+
         }
 
         #container>p {
@@ -33,11 +40,6 @@
             text-align: center;
             font-size: 40px;
             font-weight: 900;
-        }
-
-        #signUp_form {
-            width: 100%;
-            margin: auto;
         }
 
         input {
@@ -55,7 +57,7 @@
             color: #404040;
         }
 
-        #CREATE_ACCOUNT {
+        #Login {
             width: 90%;
             height: 40px;
             border-radius: 50px;
@@ -66,12 +68,8 @@
             font-weight: 500;
             border: none;
         }
-
-        #CREATE_ACCOUNT:hover {
-            cursor: pointer;
-            background: #64b8b6;
-        }
     </style>
+
 </head>
 
 <body>
@@ -79,21 +77,19 @@
         <p id="head">JEFIT</p>
     </div>
     <div id="container">
-        <p>CREATE ACCOUNT</p>
-        <form action="" id="signUp_form">
-            <label for="">Username</label><br>
-            <input type="text" placeholder="Enter a username" id="username"><br>
-            <label for="">Email Address</label><br>
-            <input type="email" placeholder="Enter your email" id="email"><br>
-            <label for="">Password</label><br>
-            <input type="password" placeholder="Password" id="password"><br>
-            <input type="password" placeholder="Confirm Password" id="confirm_password"><br>
-        </form>
-        <button id="CREATE_ACCOUNT">CREATE ACCOUNT</button>
+        <p>Log In</p>
+        <label for="">Username</label><br>
+        <input type="text" placeholder="username" id="username"><br>
+        <label for="">password</label><br>
+        <input type="password" placeholder="password" id="password"><br>
+        <button id="Login">Login</button>
     </div>
-
+    <div>
+        <h1 id="showname"></h1>
+    </div>
 </body>
 
 </html>
+<script src="./login.js"></script>
 
-<script src="./signUp.js"></script>
+<!-- https://www.jefit.com/images/loginbg.jpg -->
