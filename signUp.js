@@ -44,7 +44,7 @@ class User {
         let isValidated = this.validateUsername(username) && this.validatePassword(password)
 
         if (isValidated) {
-            
+
             this.name = name
             this.username = username;
             this.email = email;
@@ -65,9 +65,16 @@ class User {
             let data = await response.json();
             console.log('data', data)
 
-             
+            if (data.error === true) {
+                alert('user already exists')
+            }
+            else {
+                alert('Sign up successful you are redirecting to home page')
 
-
+                window.location.href = 'navbar.html'
+                let signup = document.getElementById('signup')
+                signup.style.display = "none"
+            }
         }
     }
 
@@ -89,12 +96,12 @@ const Register = () => {
 
     let signUp_form = document.getElementById('signUp_form');
 
-    const name = `ggss`;
+    const name = `Antony`;
     const email = signUp_form.email.value;
     const username = signUp_form.username.value;
     const password = signUp_form.password.value;
     const mobile = `${email}78978787878`;
-    const description =`${email}doneee`;
+    const description = `${email}doneee`;
 
 
     user_data.signUp(name, email, username, password, mobile, description);
