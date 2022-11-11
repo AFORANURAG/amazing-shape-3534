@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>navbar</title>
+</head>
+
+<body>
+  <div class="navbar" id="navbarid">
+    <!-- //https://drive.google.com/file/d/14MOemnWLunNTM8kPaLpxzU4Ao3biHD5e/view -->
+    <!-- <img id="ourlogo" src="https://ibb.co/s5yKFCX" -->
+    <!-- we are going to make a button here and fa-fa icon -->
+    <img src="https://i.ibb.co/rb4xZ3X/warrior.png" id="ourlogo" alt="warrior" />
+    
+    
+    
+    <div class="dropdown" id="getappmain">
+      <button class="dropbtn" id="getapp">Get App
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="getappbtn">
+        <a href="#">Workout App(IOS)</a>
+        <a href="#">Workout App (Android)</a>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Workout Plans
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Pro-designed Plans </a>
+      </div>
+    </div>
+    <a href="">Exercise</a>
+    <!-- anurag Upadhyay -->
+    <div class="dropdown">
+      <button class="dropbtn">Community
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Jefit Community</a>
+        <a href="#">Blog</a>
+      </div>
+
+    </div>
+    <a href="">Coach</a>
+    <a href="">Elite</a>
+    <a href="login.html">Login</a>
+    <a href="signUp.html"><button id="signup">Sign Up</button></a>
+    <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="navbar()">&#9776;</a>
+  </div>
+</body>
+
+</html>
+<script>
+  const navbar = () => {
+    let x = document.getElementById("navbarid");
+    if (x.className === "navbar") {
+      console.log(x)
+      x.className += " ournavbar";
+    } else {
+      console.log(x)
+      x.className = "navbar";
+    }
+  }
+</script>
+<!-- <script src="./signUp.js"></script>
+<script src="./login.js"></script> -->
+

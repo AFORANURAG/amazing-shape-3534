@@ -1,0 +1,28 @@
+i {
+    pointer-events: auto;
+cursor: pointer;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.myinnerslider{
+display: grid;
+grid-template-columns: repeat(18,1fr);
+width: 200%;
+gap: 10px;
+position: absolute;
+height: 100%;
+top: 0%;
+left: 0%;
+pointer-events: none;
+}
+.myslider{
+position: absolute;
+left: 10%;
+width: 85%;
+height: 200px;
+overflow: hidden;
+top: 100px;
+}
