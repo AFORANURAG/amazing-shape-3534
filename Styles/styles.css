@@ -1,17 +1,18 @@
-
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
     #ourlogo{
         float: left;
         width: 10%;
         height: 150px;
-        margin-left: 20px;
+        margin-left: 2.5%;
     }
         .navbar {
             overflow: hidden;
             background-color:#317cff;
-        padding-left: 20px;
-        padding-right: 20px;
         height: auto;
-        }  
+padding-right: 1%;
+      }  
         .navbar a {
             float: left;
             display: block;
@@ -19,7 +20,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 25px;
+            font-size: 22px;
           }
           .navbar .icon {
             display: none;
@@ -27,12 +28,12 @@
           .dropdown {
             float: left;
             overflow: hidden;
-            margin-left: 30px;
+            margin-left: 1.5%;
             /* float left property is acting like it is making things inline or something like that because div is block level but after
             doing float left for all dropdowns everything is becomng like inline. */
           }.navbar>a{
             margin-top: 50px;
-            margin-left: 30px;
+            margin-left: 1.5%;
           }
           .dropdown .dropbtn {
             font-size: 17px;    
@@ -42,13 +43,12 @@
             padding: 14px 16px;
             background-color: inherit;
             font-family: inherit;
-            margin: 0;
         margin-top: 50px ;
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
         }
-          .dropdown-content {
-            display: none;
+        .dropdown-content {
+          display: none;
             position: absolute;
             background-color: #f9f9f9;
             min-width: 160px;
@@ -141,7 +141,7 @@
         } */
         #signup{
             text-align: center;
-            width: 200px;
+            border: 1px solid black;
             background-color: white;
             height: 60px;
             font-size: 30px;
@@ -155,7 +155,7 @@
 and the other class is going to make the navbar suitable for small screen
 */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .navbar a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -167,7 +167,7 @@ and the other class is going to make the navbar suitable for small screen
        width: 30%; 
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .ournavbar {position: relative;}
     .ournavbar .icon {
       position: absolute;
