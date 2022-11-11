@@ -13,12 +13,12 @@ body {
     padding:0;
     margin:0;
 }
-#navbarid{
+/* #navbarid{
     width:100%;
     height:80px;
     border:1px solid red;
     background-color: blue;
-}
+} */
 
 .sansfont{
     font-family: 'Open Sans', sans-serif;
