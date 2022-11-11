@@ -1,27 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="../Styles/paymentgateway.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/styles.css">
     <title>payment-gateway</title>
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+
+
 </head>
+<body>
+    
 <div id="navbarid" class="navbar">
 </div>
+
+
 <p style="margin-left: 15%;color: black;font-size: 20px;font-family: Arial, Helvetica, sans-serif;">Home > Elite ><span style="color: #3daeee;">
 Checkout
 </span></p> 
 
-<div style="width:100%; background-color:#3696f3; height: 100px;">
-<img style = "width:6.5%;" src="https://cdn.pixabay.com/photo/2018/04/29/19/12/money-icon-3360867_960_720.png" alt="">
-<h1>
+<div style="width:100%; background-color:#5599ff; height: 100px;margin-top: 60px;">
+<img style = "width:5.2%;margin-left: 40%;" src="https://cdn.pixabay.com/photo/2018/04/29/19/12/money-icon-3360867_960_720.png" alt="">
+<h1 style="margin-left: 46.5%; margin-top: -85px;color: white;margin-bottom:20px ;">
 GET JEFIT ELITE    
 </h1>
-<p>Save 55% with 12 Months</p>
+<p style="margin-left: 46.7%;margin-top: -20px;color: white;">Save 55% with 12 Months</p>
 </div>
+<P style="margin-left: 10%;font-family: Arial, Helvetica, sans-serif;">SELECT ELITE OPTION</P>
+
+<div id="plans">
+<div id="plan1">
+<p>No COMMITMENT</p>
+<h1>1 Month</h1>
+<p>$12.99/month</p>
+<p>billed monthly</p>
+</div>
+
+<div id="plan2">
+
+<p style="background-color: 
+#75c33d;width: 25%;margin-left: 37.5%;">POPULAR-SAVE 55%</p>
+<h1>12 Months</h1>
+<p>$5.83/Months</p>
+<p>billed anually</p>
+</div>
+</div>
+    
+<P style="font-size: 20px;margin-left: 9.3%;">ENTER PAYMENT INFORMATION</P>
+
+<div id="payment-form">
+<div id="cardfilling">
+
+
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-12 col-sm-8 col-md-6 mx-auto">
+                <div id="pay-invoice" class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2 class="text-center">Pay Invoice</h2>
+                        </div>
+                        <hr>
+                        <form action="" method="post" novalidate="novalidate">
+                            <input type="hidden" id="x_first_name" name="x_first_name" value="">
+                            <input type="hidden" id="x_last_name" name="x_last_name" value="">
+                            <input type="hidden" id="x_card_num" name="x_card_num" value="">
+                            <input type="hidden" id="x_exp_date" name="x_exp_date" value="">
+                            <div class="form-group text-center">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="text-muted fa fa-cc-visa fa-2x"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-cc-mastercard fa-2x"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-cc-amex fa-2x"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-cc-discover fa-2x"></i></li>
+                                </ul>
+                            </div>
+                            <div class="form-group">
+                                <label>Payment amount</label>
+                                <h2>$100.00</h2>
+                            </div>
+                            <div class="form-group has-success">
+                                <label for="cc-name" class="control-label">Name on card</label>
+                                <input id="cc-name" name="cc-name" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
+                                <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="cc-number" class="control-label">Card number</label>
+                                <input id="cc-number" name="cc-number" type="tel" class="form-control cc-number identified visa" value="" data-val="true" data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number" autocomplete="cc-number">
+                                <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="cc-exp" class="control-label">Expiration</label>
+                                        <input id="cc-exp" name="cc-exp" type="tel" class="form-control cc-exp" value="" data-val="true" data-val-required="Please enter the card expiration" data-val-cc-exp="Please enter a valid month and year" placeholder="MM / YY" autocomplete="cc-exp">
+                                        <span class="help-block" data-valmsg-for="cc-exp" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label for="x_card_code" class="control-label">Security code</label>
+                                    <div class="input-group">
+                                        <input id="x_card_code" name="x_card_code" type="tel" class="form-control cc-cvc" value="" data-val="true" data-val-required="Please enter the security code" data-val-cc-cvc="Please enter a valid security code" autocomplete="off">
+                                        <div class="input-group-addon">
+                                            <span class="fa fa-question-circle fa-lg" data-toggle="popover" data-container="body" data-html="true" data-title="Security Code" 
+                                            data-content="<div class='text-center one-card'>The 3 digit code on back of the card..<div class='visa-mc-cvc-preview'></div></div>"
+                                            data-trigger="hover"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="x_zip" class="control-label">Postal code</label>
+                                <input id="x_zip" name="x_zip" type="text" class="form-control" value="" data-val="true" data-val-required="Please enter the ZIP/Postal code" autocomplete="postal-code">
+                                <span class="help-block" data-valmsg-for="x_zip" data-valmsg-replace="true"></span>
+                            </div>
+                            <div>
+                                <button id="payment-button" type="submit" class="btn btn-lg btn-success btn-block">
+                                    <i class="fa fa-lock fa-lg"></i>&nbsp;
+                                    <span id="payment-button-amount">Pay $100.00</span>
+                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div id="box">
+
+
+</div>
+</div>
+
 <script src="./src/navbarscripting.js"></script>
 <script src="./src/paymentgateway.js" type="module"></script>
-<body>
+
+
+
+<script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>
+
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=”anonymous”></script>
+
+<script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” crossorigin=”anonymous”></script>
+
 </body>
 </html>
