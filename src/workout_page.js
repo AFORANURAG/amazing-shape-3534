@@ -1,11 +1,13 @@
 // import navbar from "../components/navbar.js"
-
-import { data } from "../components/data.js";
-
 // document.querySelector("#navbarid").innerHTML = navbar();
 
-
+import { data } from "../components/data.js";
 let mainDiv =  document.querySelector(".tBody");
+
+
+
+
+
 
 
 

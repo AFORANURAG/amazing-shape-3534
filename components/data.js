@@ -17,3 +17,530 @@ export let data = [
     {a:"https://www.jefit.com/assets/img/routine/banner-large/wide_general_f.png",b:'ppl*arnold',c:'5 days',d:'Cutting',e:'Beginner',f:'12/0',g:'jonas.sarantaris',h:'Elite',i:'"female"'},
     
 ]
+
+
+
+// export let data2 = [
+
+//     <div class="navday1">
+//     Day1    workout:Chest&Triceps</div>
+//     <table id="tablelast">
+        
+//         <tr id="trheadingnng">
+//           <th>Exercise Name</th>
+//           <th>push Up</th>
+//           <th>Musicle</th>
+//           <th>Timer</th>
+//           <th>Reps</th>
+//           <th>Sets</th>
+//           <th>Track</th>
+//         </tr>
+//         <tr>
+            
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/exercises/50_50/188.jpg" alt="">Dumbell one Arm Row</a></td>
+//           <td>Dumbell one Arm Row</td>
+//           <td>Back</td>
+//           <td>60sec</td>
+//           <td>6</td>
+//           <td>3</td>
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+          
+//         </tr>
+//         <tr>
+//           <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/104.jpg">Dumbell one Arm Row</a></td>
+//           <td>Francisco Chang</td>
+//           <td>Mexico</td>
+//           <td>70sec</td>
+//           <td>5</td>
+//           <td>3</td>
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//         </tr>
+//         <tr>
+//           <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/124.jpg">Dumbell zottman</a></td>
+//           <td>3 days</td>
+//           <td>30sec</td>
+//           <td>4</td>
+//           <td>3</td>
+//           <td>4</td>
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//         </tr>
+//         <tr>
+//             <td><a href="exercise_guide.html"><img  src="https://www.jefit.com/images/exercises/50_50/164.jpg">Dumbell concentration</a></td>
+//             <td>Dumbell one Arm Row</td>
+//             <td>Back</td>
+//             <td>60sec</td>
+//             <td>6</td>
+//             <td>3</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+    
+          
+//         </tr>
+//         <tr>
+//           <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/4220.jpg">Dumbell one Arm Row</a></td>
+//           <td>Dumbell one Arm Row</td>
+//           <td>Back</td>
+//           <td>60sec</td>
+//           <td>6</td>
+//           <td>3</td>
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//         </tr>
+//         <tr>
+//           <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/1852.jpg">Copy of 3 Day - My Custom Routine</a></td>
+//           <td>3 days</td>
+//           <td>Maintaining</td>
+//           <td>Beginner</td>
+//           <td>6/0</td>
+//           <td>svjbmmsv</td>
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//         </tr>
+    
+//         <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg" alt="">
+//                 Copy of 3 Day - My Custom Routine</a></td>
+//                 <td>Dumbell one Arm Row</td>
+//                 <td>Back</td>
+//                 <td>60sec</td>
+//                 <td>6</td>
+//                 <td>3</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+    
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/988.jpg"> Full Body Workout</a></td>
+//             <td>Dumbell one Arm Row</td>
+//           <td>Back</td>
+//           <td>60sec</td>
+//           <td>6</td>
+//           <td>3</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+    
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg">Build Muscle Mass: 3-Day Split</a></td>
+//             <td>4 days</td>
+//             <td>Sport</td>
+//             <td>Advanced</td>
+//             <td>7/0</td>
+//             <td>mmarkos</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+    
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/988.jpg">Build Muscle Mass: 5-Day Split</a></td>
+//             <td>Francisco Chang</td>
+//             <td>Mexico</td>
+//             <td>70sec</td>
+//             <td>5</td>
+//             <td>3</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+    
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/960.jpg">Marilyn's Pixar Mom Routine</a></td>
+//             <td>4 days</td>
+//             <td>Maintaining</td>
+//             <td>Beginner</td>
+//             <td>6/0</td>
+//             <td>zagbapu</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+    
+          
+//         </tr>
+        
+//           <tr>
+//           <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/960.jpg">Marilyn's Pixar Mom Routine</a></td>
+//           <td>4 days</td>
+//           <td>Maintaining</td>
+//           <td>Beginner</td>
+//           <td>6/0</td>
+//           <td>zagbapu</td>
+//           <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//         </tr>
+       
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg">Copy of 3 Day - My Custom Routine</a></td>
+//             <td>3 days</td>
+//             <td>Sport</td>
+//             <td>Beginner</td>
+//             <td>7/0</td>
+//             <td>halleya</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/168.jpg">Marilyn's Pixar Mom Routine</a></td>
+//             <td>4 days</td>
+//             <td>Maintaining</td>
+//             <td>Beginner</td>
+//             <td>6/0</td>
+//             <td>zagbapu</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/168.jpg">Build Muscle Mass: 3-Day Split</a></td>
+//             <td>4 days</td>
+//             <td>Sport</td>
+//             <td>Advanced</td>
+//             <td>7/0</td>
+//             <td>mmarkos</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+//           <tr>
+//             <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg"> Copy of 3 Day - My Custom Routine</a></td>
+//             <td>3 days</td>
+//             <td>Sport</td>
+//             <td>Beginner</td>
+//             <td>7</td>
+//             <td>halleya</td>
+//             <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//           </tr>
+//       </table>
+//     <!-- secand table -->
+
+
+//     <div class="navday1">
+//         Day2    workout:<span>Chest</span>&<span>Triceps</span></div>
+//         <table id="tablelast">
+            
+//             <tr id="trheadingnng">
+//               <th>Exercise Name</th>
+//               <th>push Up</th>
+//               <th>Musicle</th>
+//               <th>Timer</th>
+//               <th>Reps</th>
+//               <th>Sets</th>
+//               <th>Track</th>
+//             </tr>
+//             <tr>
+                
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/exercises/50_50/188.jpg" alt="">Dumbell one Arm Row</a></td>
+//               <td>Dumbell one Arm Row</td>
+//               <td>Back</td>
+//               <td>60sec</td>
+//               <td>6</td>
+//               <td>3</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+              
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/104.jpg">Dumbell one Arm Row</a></td>
+//               <td>Francisco Chang</td>
+//               <td>Mexico</td>
+//               <td>70sec</td>
+//               <td>5</td>
+//               <td>3</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/124.jpg">Dumbell zottman</a></td>
+//               <td>3 days</td>
+//               <td>30sec</td>
+//               <td>4</td>
+//               <td>3</td>
+//               <td>4</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+//             <tr>
+//                 <td><a href="exercise_guide.html"><img  src="https://www.jefit.com/images/exercises/50_50/164.jpg">Dumbell concentration</a></td>
+//                 <td>Dumbell one Arm Row</td>
+//                 <td>Back</td>
+//                 <td>60sec</td>
+//                 <td>6</td>
+//                 <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+        
+              
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/4220.jpg">Dumbell one Arm Row</a></td>
+//               <td>Dumbell one Arm Row</td>
+//               <td>Back</td>
+//               <td>60sec</td>
+//               <td>6</td>
+//               <td>3</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/1852.jpg">Copy of 3 Day - My Custom Routine</a></td>
+//               <td>3 days</td>
+//               <td>Maintaining</td>
+//               <td>Beginner</td>
+//               <td>6/0</td>
+//               <td>svjbmmsv</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+        
+//             <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg" alt="">
+//                     Copy of 3 Day - My Custom Routine</a></td>
+//                     <td>Dumbell one Arm Row</td>
+//                     <td>Back</td>
+//                     <td>60sec</td>
+//                     <td>6</td>
+//                     <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/988.jpg"> Full Body Workout</a></td>
+//                 <td>Dumbell one Arm Row</td>
+//               <td>Back</td>
+//               <td>60sec</td>
+//               <td>6</td>
+//               <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg">Build Muscle Mass: 3-Day Split</a></td>
+//                 <td>4 days</td>
+//                 <td>Sport</td>
+//                 <td>Advanced</td>
+//                 <td>7/0</td>
+//                 <td>mmarkos</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/988.jpg">Build Muscle Mass: 5-Day Split</a></td>
+//                 <td>Francisco Chang</td>
+//                 <td>Mexico</td>
+//                 <td>70sec</td>
+//                 <td>5</td>
+//                 <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/960.jpg">Marilyn's Pixar Mom Routine</a></td>
+//                 <td>4 days</td>
+//                 <td>Maintaining</td>
+//                 <td>Beginner</td>
+//                 <td>6/0</td>
+//                 <td>zagbapu</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+        
+              
+//             </tr>
+            
+//               <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/960.jpg">Marilyn's Pixar Mom Routine</a></td>
+//               <td>4 days</td>
+//               <td>Maintaining</td>
+//               <td>Beginner</td>
+//               <td>6/0</td>
+//               <td>zagbapu</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+           
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg">Copy of 3 Day - My Custom Routine</a></td>
+//                 <td>3 days</td>
+//                 <td>Sport</td>
+//                 <td>Beginner</td>
+//                 <td>7/0</td>
+//                 <td>halleya</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/168.jpg">Marilyn's Pixar Mom Routine</a></td>
+//                 <td>4 days</td>
+//                 <td>Maintaining</td>
+//                 <td>Beginner</td>
+//                 <td>6/0</td>
+//                 <td>zagbapu</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/168.jpg">Build Muscle Mass: 3-Day Split</a></td>
+//                 <td>4 days</td>
+//                 <td>Sport</td>
+//                 <td>Advanced</td>
+//                 <td>7/0</td>
+//                 <td>mmarkos</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg"> Copy of 3 Day - My Custom Routine</a></td>
+//                 <td>3 days</td>
+//                 <td>Sport</td>
+//                 <td>Beginner</td>
+//                 <td>7</td>
+//                 <td>halleya</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//           </table>
+//     <!-- table3     -->
+
+//     <div class="navday1">
+//         Day3    workout:Chest&Triceps</div>
+//         <table id="tablelast">
+            
+//             <tr id="trheadingnng">
+//               <th>Exercise Name</th>
+//               <th>push Up</th>
+//               <th>Musicle</th>
+//               <th>Timer</th>
+//               <th>Reps</th>
+//               <th>Sets</th>
+//               <th>Track</th>
+//             </tr>
+//             <tr>
+                
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/exercises/50_50/188.jpg" alt="">Dumbell one Arm Row</a></td>
+//               <td>Dumbell one Arm Row</td>
+//               <td>Back</td>
+//               <td>60sec</td>
+//               <td>6</td>
+//               <td>3</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+              
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/104.jpg">Dumbell one Arm Row</a></td>
+//               <td>Francisco Chang</td>
+//               <td>Mexico</td>
+//               <td>70sec</td>
+//               <td>5</td>
+//               <td>3</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/124.jpg">Dumbell zottman</a></td>
+//               <td>3 days</td>
+//               <td>30sec</td>
+//               <td>4</td>
+//               <td>3</td>
+//               <td>4</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+//             <tr>
+//                 <td><a href="exercise_guide.html"><img  src="https://www.jefit.com/images/exercises/50_50/164.jpg">Dumbell concentration</a></td>
+//                 <td>Dumbell one Arm Row</td>
+//                 <td>Back</td>
+//                 <td>60sec</td>
+//                 <td>6</td>
+//                 <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+        
+              
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/4220.jpg">Dumbell one Arm Row</a></td>
+//               <td>Dumbell one Arm Row</td>
+//               <td>Back</td>
+//               <td>60sec</td>
+//               <td>6</td>
+//               <td>3</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+//             <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/1852.jpg">Copy of 3 Day - My Custom Routine</a></td>
+//               <td>3 days</td>
+//               <td>Maintaining</td>
+//               <td>Beginner</td>
+//               <td>6/0</td>
+//               <td>svjbmmsv</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+        
+//             <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg" alt="">
+//                     Copy of 3 Day - My Custom Routine</a></td>
+//                     <td>Dumbell one Arm Row</td>
+//                     <td>Back</td>
+//                     <td>60sec</td>
+//                     <td>6</td>
+//                     <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/988.jpg"> Full Body Workout</a></td>
+//                 <td>Dumbell one Arm Row</td>
+//               <td>Back</td>
+//               <td>60sec</td>
+//               <td>6</td>
+//               <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg">Build Muscle Mass: 3-Day Split</a></td>
+//                 <td>4 days</td>
+//                 <td>Sport</td>
+//                 <td>Advanced</td>
+//                 <td>7/0</td>
+//                 <td>mmarkos</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/988.jpg">Build Muscle Mass: 5-Day Split</a></td>
+//                 <td>Francisco Chang</td>
+//                 <td>Mexico</td>
+//                 <td>70sec</td>
+//                 <td>5</td>
+//                 <td>3</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+        
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/960.jpg">Marilyn's Pixar Mom Routine</a></td>
+//                 <td>4 days</td>
+//                 <td>Maintaining</td>
+//                 <td>Beginner</td>
+//                 <td>6/0</td>
+//                 <td>zagbapu</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+        
+              
+//             </tr>
+            
+//               <tr>
+//               <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/960.jpg">Marilyn's Pixar Mom Routine</a></td>
+//               <td>4 days</td>
+//               <td>Maintaining</td>
+//               <td>Beginner</td>
+//               <td>6/0</td>
+//               <td>zagbapu</td>
+//               <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//             </tr>
+           
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg">Copy of 3 Day - My Custom Routine</a></td>
+//                 <td>3 days</td>
+//                 <td>Sport</td>
+//                 <td>Beginner</td>
+//                 <td>7/0</td>
+//                 <td>halleya</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/168.jpg">Marilyn's Pixar Mom Routine</a></td>
+//                 <td>4 days</td>
+//                 <td>Maintaining</td>
+//                 <td>Beginner</td>
+//                 <td>6/0</td>
+//                 <td>zagbapu</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/168.jpg">Build Muscle Mass: 3-Day Split</a></td>
+//                 <td>4 days</td>
+//                 <td>Sport</td>
+//                 <td>Advanced</td>
+//                 <td>7/0</td>
+//                 <td>mmarkos</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//               <tr>
+//                 <td><a href="exercise_guide.html"><img src="https://www.jefit.com/images/exercises/50_50/3548.jpg"> Copy of 3 Day - My Custom Routine</a></td>
+//                 <td>3 days</td>
+//                 <td>Sport</td>
+//                 <td>Beginner</td>
+//                 <td>7</td>
+//                 <td>halleya</td>
+//                 <td><a href="exercise_guide.html"><img class="linktonext" src="https://www.jefit.com/images/lifting_log_icon_20.png" alt=""></td>
+//               </tr>
+//           </table>
+// ]
