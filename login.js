@@ -23,7 +23,15 @@ class User {
         const loginData = await response.json();
         console.log('logdata', loginData)
 
-        return loginData;
+        if (loginData.error === true) {
+            alert('please enter valid username and password')
+        }
+        else{
+            alert('Login success')
+            return loginData;
+        }
+
+        
     }
 }
 
@@ -40,44 +48,56 @@ const Login = async () => {
     let Pwd = document.getElementById('password').value;
     let Username = document.getElementById('username').value;
 
-    let {token} = await user_loginData.Login(Username, Pwd);
+    if (Username == "") {
+        alert('please enter your username')
+    }
+    else if (Pwd == "") {
+        alert('enter your password')
+    }
 
-    getProfile(Username, token)
+    else {
+        let { token } = await user_loginData.Login(Username, Pwd);
+
+        getProfile(Username, token)
+    }
+
+
 
 }
 
 
-const getProfile = async (Username, token) =>{
+const getProfile = async (Username, token) => {
 
     const login_api = `https://masai-api-mocker.herokuapp.com/user/${Username}`;
 
     let response = await fetch(login_api, {
-        headers:{
+        headers: {
             Authorization: `Bearer ${token}`,
             'Content-Type': 'application/json'
         }
     });
 
-    
-    // let api_link = `https://masai-api-mocker.herokuapp.com/user/${Username}`
-
-    // let response = await fetch(api_link, {
-
-    //     headers: {
-    //         Authorization: `Bearer ${token}`,
-    //         'Content-Type': 'application/json',
-    //     },
-    // });
-
     let profileData = await response.json();
 
     console.log('profiledata', profileData)
 
-    let showname = document.getElementById('showname');
-    showname.innerText = profileData.username;
+    if (profileData.username !== undefined) {
+        let showname = document.getElementById('showname');
+        // showname.innerHTML = ""
+        showname.innerText = profileData.username;
+        showname.style.color = "red"
+    }
+
+
 
 }
 
+// registered ids
 
 // avtar777
 // betterid88
+// charlesrrr456
+// menonop789
+// merisanam145
+// kalasnikavo2022
+// gcgsdjgsdj123
