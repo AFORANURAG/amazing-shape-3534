@@ -1,0 +1,28 @@
+#footer{
+    height: 300px;
+    border: 0px solid red;
+    margin-top: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #footer p{
+    color: #7E868c
+  }
+  #footer a:link{
+    color: #7E868c
+  }
+
+  @media only screen and (min-width: 250px) and (max-width: 550px){
+    #footer{
+    height: auto;
+    border: 0px solid red;
+    margin-top: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: inline-block;
+   width: auto;
+   text-align: center;
+   margin: auto;
+   padding:70%;
+  }
+}
