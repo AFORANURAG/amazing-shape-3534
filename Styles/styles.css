@@ -1,19 +1,24 @@
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0%;
+  margin: 0%;
 }
+
 
 #ourlogo {
   float: left;
-  width: 10%;
-  height: 100px;
+  width: 8.0%;
+  /* border: 1px solid red; */
+  /* height: 100px; */
   margin-left: 2.5%;
 position: relative;
 }
 
 .navbar {
-  
+  width: 100%;
   background-color: #317cff;
-  height: 100px;
+  height: 110px;
   padding-right: 1%;
 }
 
@@ -68,6 +73,8 @@ bottom: 30px;
   background-color: #317cff;
 
 }
+
+
 
 .navbar>a {
   margin-top: 20px;
@@ -202,7 +209,6 @@ bottom: 30px;
   border: 1px solid white;
   border-radius: 10px;
 background-color: white;
-
 }
 
 /* finally media queries for responsiveness*/
@@ -290,7 +296,7 @@ position: relative;
 left: -70px;
 }
 .ournavbar{
-  height: 1050px;
+  height: auto;
 }
 }
 
