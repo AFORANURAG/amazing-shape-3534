@@ -26,12 +26,13 @@ class User {
         if (loginData.error === true) {
             alert('please enter valid username and password')
         }
-        else{
-            alert('Login success')
+        else {
+            alert('Login success  you are redirecting to home page')
+            window.location.href = "./navbar.html"
             return loginData;
         }
 
-        
+
     }
 }
 
@@ -57,7 +58,7 @@ const Login = async () => {
 
     else {
         let { token } = await user_loginData.Login(Username, Pwd);
-
+        localStorage.setItem("Jefit_username", Username);
         getProfile(Username, token)
     }
 
