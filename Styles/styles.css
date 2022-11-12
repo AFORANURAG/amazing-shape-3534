@@ -43,9 +43,9 @@ bottom: 30px;
 
 #dropdown1{
   float: left;
-  overflow: hidden;
-  margin-left: 1.5%;
+    margin-left: 1.5%;
   position: relative;
+bottom: 30px;
 }
 #dropbtn1{
   font-size: 17px;
@@ -113,7 +113,6 @@ bottom: 30px;
   display: block;
   text-align: left;
 }
-
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: inherit;
@@ -198,11 +197,12 @@ bottom: 30px;
   text-align: center;
   border: 1px solid black;
   background-color: white;
-  height: 60px;
+  height: 45px;
   font-size: 30px;
   border: 1px solid white;
   border-radius: 10px;
 background-color: white;
+
 }
 
 /* finally media queries for responsiveness*/
