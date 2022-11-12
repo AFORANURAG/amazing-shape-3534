@@ -1,19 +1,24 @@
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0%;
+  margin: 0%;
 }
+
 
 #ourlogo {
   float: left;
-  width: 10%;
-  height: 100px;
+  width: 8.0%;
+  /* border: 1px solid red; */
+  /* height: 100px; */
   margin-left: 2.5%;
 position: relative;
 }
 
 .navbar {
-  
+  width: 100%;
   background-color: #317cff;
-  height: 100px;
+  height: 110px;
   padding-right: 1%;
 }
 
@@ -43,9 +48,9 @@ bottom: 30px;
 
 #dropdown1{
   float: left;
-  overflow: hidden;
-  margin-left: 1.5%;
+    margin-left: 1.5%;
   position: relative;
+bottom: 30px;
 }
 #dropbtn1{
   font-size: 17px;
@@ -68,6 +73,8 @@ bottom: 30px;
   background-color: #317cff;
 
 }
+
+
 
 .navbar>a {
   margin-top: 20px;
@@ -113,7 +120,6 @@ bottom: 30px;
   display: block;
   text-align: left;
 }
-
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: inherit;
@@ -198,7 +204,7 @@ bottom: 30px;
   text-align: center;
   border: 1px solid black;
   background-color: white;
-  height: 60px;
+  height: 45px;
   font-size: 30px;
   border: 1px solid white;
   border-radius: 10px;
@@ -290,7 +296,7 @@ position: relative;
 left: -70px;
 }
 .ournavbar{
-  height: 1050px;
+  height: auto;
 }
 }
 
