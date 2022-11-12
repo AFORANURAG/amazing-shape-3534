@@ -51,14 +51,25 @@
     </div>
     <a href="">Coach</a>
     <a href="">Elite</a>
-    <a href="login.html">Login</a>
-    <a href="signUp.html"><button id="signup">Sign Up</button></a>
+    <a href="login.html" id="Login">Login</a>
+    <a href="signUp.html"><button id="signup"></button></a>
     <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="navbar()">&#9776;</a>
   </div>
 </body>
 
 </html>
 <script>
+  let name = localStorage.getItem("Jefit_username");
+  let showname  = document.querySelector("#signup")
+  showname.textContent = name || "Sign Up";
+
+  if(showname == name){
+    let login = document.getElementById('Login');
+    login.style.display = 'none';
+  }
+  
+
+
   const navbar = () => {
     let x = document.getElementById("navbarid");
     if (x.className === "navbar") {
@@ -69,6 +80,10 @@
       x.className = "navbar";
     }
   }
+
+
+  
+  
 </script>
 <!-- <script src="./signUp.js"></script>
 <script src="./login.js"></script> -->
