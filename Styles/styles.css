@@ -1,86 +1,141 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
-    #ourlogo{
-        float: left;
-        width: 10%;
-        height: 150px;
-        margin-left: 2.5%;
-    }
-        .navbar {
-            overflow: hidden;
-            background-color:#317cff;
-        height: auto;
-padding-right: 1%;
-      }  
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 22px;
-          }
-          .navbar .icon {
-            display: none;
-          }
-          .dropdown {
-            float: left;
-            overflow: hidden;
-            margin-left: 1.5%;
-            /* float left property is acting like it is making things inline or something like that because div is block level but after
+
+#ourlogo {
+  float: left;
+  width: 10%;
+  height: 100px;
+  margin-left: 2.5%;
+position: relative;
+}
+
+.navbar {
+  
+  background-color: #317cff;
+  height: 100px;
+  padding-right: 1%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.dropdown {
+float: left;
+margin-left: 1.5%;
+position: relative;
+bottom: 30px;
+
+/* float left property is acting like it is making things inline or something like that because div is block level but after
             doing float left for all dropdowns everything is becomng like inline. */
-          }.navbar>a{
-            margin-top: 50px;
-            margin-left: 1.5%;
-          }
-          .dropdown .dropbtn {
-            font-size: 17px;    
-            border: none;
-            outline: none;
-            color: white;
-            padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit;
-        margin-top: 50px ;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-        .dropdown-content {
-          display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        background-color: #317cff;  
-        }
-          .dropdown-content a {
-            float: none;
-            color: white;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-          }
-          
-          .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color:inherit;
-            color: white;
-          }
-          
-          .dropdown-content a:hover {
-            background-color: #ddd;
-            color: black;
-          }
-          
-          .dropdown:hover .dropdown-content {
-            display: block;
-          }
-        
-        /* second dropdown ( copy paste from first one) */
-        /* #workoutcontent{
+}
+
+#dropdown1{
+  float: left;
+  overflow: hidden;
+  margin-left: 1.5%;
+  position: relative;
+}
+#dropbtn1{
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;   
+}#dropdown-content1{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 18409238093248;
+  background-color: #317cff;
+
+}
+
+.navbar>a {
+  margin-top: 20px;
+  margin-left: 1.5%;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 138402938;
+  background-color: #317cff;
+}
+
+#dropdown-content1 a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: inherit;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#dropdown1:hover #dropdown-content1{
+  display: block;
+  z-index: 123123123;
+}
+
+/* second dropdown ( copy paste from first one) */
+/* #workoutcontent{
             height: 200px;
             width: 270px;
             font-size: 30px;
@@ -91,10 +146,10 @@ padding-right: 1%;
             z-index: 1;
             margin-left: 20px;
         }#workoutcontent a{ */
-            /* text-decoration: none;
+/* text-decoration: none;
             color: white;
             margin-left: 15px; */
-        /* }#workoutbtn{
+/* }#workoutbtn{
         font-size: 30px;
         border-radius:10px ;
         border: none;
@@ -108,9 +163,9 @@ padding-right: 1%;
         }#Workout-Plans{
             margin-left: 30px;
         } */
-        
-        /* third dropdown */
-        /* #communitycontent{
+
+/* third dropdown */
+/* #communitycontent{
         height: 200px;
         width: 270px;
         font-size: 30px;
@@ -119,7 +174,7 @@ padding-right: 1%;
         background-color:#317cff;
         min-width: 160px;
         z-index: 1; */
-        /* }#communitycontent a{
+/* }#communitycontent a{
             text-decoration: none;
             margin-left: 15px;
             color: white;
@@ -130,7 +185,7 @@ padding-right: 1%;
         background-color: #317cff;
         color: white;
         } */
-        /* #Community:hover #communitycontent{
+/* #Community:hover #communitycontent{
             display: block;
         }#Communitybtn:hover{
             cursor: pointer;
@@ -139,16 +194,16 @@ padding-right: 1%;
         }#Community{
             margin-left: 20px;
         } */
-        #signup{
-            text-align: center;
-            border: 1px solid black;
-            background-color: white;
-            height: 60px;
-            font-size: 30px;
-            border: 1px solid white;
-            border-radius: 10px;
-        margin-top:-40px ;
-        }    
+#signup {
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  height: 60px;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+background-color: white;
+}
 
 /* finally media queries for responsiveness*/
 /* so the logic is that for small screen we are going to erase all content for one class 
@@ -156,49 +211,86 @@ and the other class is going to make the navbar suitable for small screen
 */
 
 @media screen and (max-width: 900px) {
-    .navbar a:not(:first-child), .dropdown .dropbtn {
-      display: none;
-    }
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }#ourlogo{
-       margin-left: 0px;
-       width: 30%; 
-    }
+
+  .navbar a:not(:first-child),
+  .dropdown .dropbtn,#dropdown1 #dropbtn1 {
+    display: none;
   }
-  @media screen and (max-width: 900px) {
-    .ournavbar {position: relative;}
-    .ournavbar .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navbar.ournavbar a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .navbar.ournavbar .dropdown {float: none;}
-    .navbar.ournavbar .dropdown-content {position: relative;}
-    .navbar.ournavbar .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
- }.navbar.ournavbar .dropdown:hover .dropdown-content {
-display: block;
-    }.navbar.ournavbar>#image{
-width: 20%;
-border: 1px solid black;
-position: relative;
-left:0 ;
-    }
-.navbar.ournavbar>#ourlogo{
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  #ourlogo {
+    margin-left: 0px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ournavbar {
+    position: relative;
+  }
+#dropdown1{
+  display: block;
+}
+  .ournavbar .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.ournavbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar.ournavbar .dropdown {
+    float: none;
+  }
+
+  .navbar.ournavbar .dropdown-content {
+    position: relative;
+  }
+
+  .navbar.ournavbar .dropdown .dropbtn,.navbar.ournavbar #dropdown1 #dropbtn1  {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar.ournavbar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .navbar.ournavbar>#image {
+    width: 20%;
+    border: 1px solid black;
+    position: relative;
+    left: 0;
+  }
+
+  .navbar.ournavbar>#ourlogo {
     width: 30%;
     margin-left: 0px;
-}#getappmain{
-  margin-top:160px;  
-} .icon{
-    font-size: 20px;
-}  
   }
+
+  #getappmain {
+    margin-top: 160px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+#signup{
+margin-top: 90px;
+position: relative;
+left: -70px;
+}
+.ournavbar{
+  height: 1050px;
+}
+}
+
