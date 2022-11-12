@@ -19,10 +19,11 @@ left: 0%;
 pointer-events: none;
 }
 .myslider{
-position: absolute;
-left: 10%;
+position: relative;
+
 width: 85%;
 height: 200px;
 overflow: hidden;
-top: 100px;
+left: 100px;
+top: 20px;
 }

@@ -333,7 +333,9 @@ border-color:#39b7ff;
  color: #7E868c
 }
 #footer a:link{
- color: #7E868c
+ color: #7E868c;
+ display: block;
+     line-height: 30px;
 }
 #img img{
  width: 30%;
