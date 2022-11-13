@@ -47,7 +47,7 @@ look like a box which only possible if it is under a div-->
   
     </div>
     </div>
-<a href=""><button id="signup">Sign Up</button></a>
+<a href="signUp.html"><button id="signup">Sign Up</button></a>
 <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="navbar()">&#9776;</a>
 `
 }
