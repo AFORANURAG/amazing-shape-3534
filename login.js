@@ -28,14 +28,10 @@ class User {
         }
         else {
             alert('Login success  you are redirecting to home page')
-            window.location.href = "./navbar.html"
             return loginData;
         }
-
-
     }
 }
-
 
 let user_loginData = new User();
 
@@ -58,14 +54,11 @@ const Login = async () => {
 
     else {
         let { token } = await user_loginData.Login(Username, Pwd);
-        localStorage.setItem("Jefit_username", Username);
+        // localStorage.setItem("Jefit_username", Username);
         getProfile(Username, token)
     }
 
-
-
 }
-
 
 const getProfile = async (Username, token) => {
 
@@ -83,13 +76,13 @@ const getProfile = async (Username, token) => {
     console.log('profiledata', profileData)
 
     if (profileData.username !== undefined) {
-        let showname = document.getElementById('showname');
-        // showname.innerHTML = ""
-        showname.innerText = profileData.username;
-        showname.style.color = "red"
+        localStorage.setItem("Jefit_username", Username);
+        window.location.href = "./navbar.html";
+
+        // let showname = document.getElementById('showname');
+        // showname.innerText = profileData.username;
+        // showname.style.color = "red"
     }
-
-
 
 }
 
