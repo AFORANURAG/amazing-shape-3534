@@ -140,7 +140,6 @@ bottom: 30px;
 }
 
 #dropdown1:hover #dropdown-content1{
-  display: block;
   z-index: 123123123;
 }
 
