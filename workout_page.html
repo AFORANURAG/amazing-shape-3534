@@ -1,148 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Styles/workout_page.css">
-    <link rel="stylesheet" href="./Styles/styles.css">
+    <title> Heyfit Gym Workout Tracker</title>
+    <link rel="shortcut icon" type="image" href="./images/Heyfit logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./Styles/workout_page.css">
 
+
+<style>
+    .card{
+        width: 95% ;
+margin-top: 20px;
+    }
+
+    .slick-prev:before {
+  color: black;
+}
+
+.slick-next:before {
+    color: black;
+}
+
+strong{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+</style>
 </head>
-
 <body>
-    <!-- <div class="navbar" id="navbarid"> </div> -->
-    <div class="navbar" id="navbarid">
+  
+<div class="ournavbar" id="navbarid"></div>
+<div id="midSection">
+    <h3 class="sansfont h3Size">JEFIT Workout Routine Database</h3>
+    <h4 class="sansfont h4Size">Featured Workout plans</h4>
+    <p class="sansfont p1Size">Try one of these professionally designed workout plans</p>
+   
+    <div class="slideshow_div">   
+        <div class="container mt-3">
+            <div class="row responsive">
+        
+               <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Strong & Powerful Core</strong>
+                    
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u10.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Bodyweight Home Circuit (Level 4)</strong>
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Female Beginner Routine</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u11.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Full Body Strength Program</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">6 Day Split Plan</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="./images/u12.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <strong class="card-title">Get Lean Routine Full Body (Level 2)</strong>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Cardio HIIT Session</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/q4.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Classic Bodybuilding Routine</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">No Equipment Superset</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/q5.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title"> Full Body Kettlebell Intervals</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u6.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Barbell Muscle Building</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/q6.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title"> 3 Day Strength Building (Phase 2)</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u7.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">6 Day Split: PPL Workout</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/q7.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Strong Core</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u8.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">3 Month From Fat to Fit</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/q8.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Core Focus (Big 3)</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/u9.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Sculpting Your Abs</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./images/q9.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <strong class="card-title">Power and Strength</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>      
+    </div>
+   
+    <h4 class="sansfont h4bottom">Jefit Workout plans</h4>
+    <p class="sansfont pSize">Filter results down to your specific needs and find a new plan</p>
 
-        <div id="midSection">
-            <h1 class="sansfont h1Size">JEFIT Workout Routine Database</h1>
-            <h2 class="sansfont h2Size">Featured Workout plans</h2>
-            <p class="sansfont pSize">Try one of these professionally designed workout plans</p>
+    <div class="filter">
+       <div class="radioboxes">
+        <label>
+            <input type="radio" name="gender" value="2">
+            Male
+        </label>
+        <label> 
+            <input type="radio"  name="gender" value="1">
+            Female
+        </label>
+        <label> 
+            <input type="radio"  checked name="gender" value="0">
+            Both
+        </label>
+       </div>
+      
+        <label>
+            <input type="checkbox" checked>
+            Routine Name
+        </label>
+        <label> 
+            <input type="checkbox" checked>
+            Routine Tag
+        </label>
+        <label> 
+            <input type="checkbox">
+            Routine Description
+        </label>
+        <input id="searchBar" type="search" placeholder="search...">
+        <button id="searchBtn">Search</button>  
+    </div>
 
-            <div class="slideshow_div">cxvvdfs</div>
+    <div class="sort_div">
+        <ul> <span class="ulheading">All Categories:</span> 
+            <li class="liPoints main">Maintaining</li>
+            <li class="liPoints bulk">Bulking</li>
+            <li class="liPoints cut">Cutting</li>
+            <li class="liPoints sport">Sport</li>
+        </ul>
+        <ul> <br> <span class="ulheading">Exp. Level:</span>
+            <li class="liPoints beg">Beginner</li>
+            <li class="liPoints inter">Intermediate</li>
+            <li class="liPoints advance">Advanced</li>
+        </ul>
+        <ul> <br> <span class="ulheading">Type:</span>
+            <li class="liPoints">Featured</li>
+            <li class="liPoints elite">Elite</li>
+            <li class="liPoints free">Free</li>
+        </ul>
+        <ul> <br> <span class="ulheading">Sort by:</span>
+            <li class="liPoints"> > Latest</li>
+            <li class="liPoints">Most Popular</li>
+            <li class="liPoints">Most Downloaded</li>
+        </ul>
+    </div>
+    <div class="filterDisplayDiv">
+     <table>
+        <thead>
+            <tr>
+                <th colspan="2">Plan Name</th>
+                <th>Frequency</th>
+                <th>Category</th>
+                <th>Exp. Level</th>
+                <th>Views/Downloads</th>
+                <th>Created by</th>
+                <th>Elite/Free</th>
+            </tr>
+        </thead>
+<tbody class="tBody">
+    <tr>
+        <td> <img style="width:10%;" src="https://www.jefit.com/assets/img/routine/banner-large/wide_general_m.png" alt=""></td>
+        <td>alireza.koochali's 3 Days Plan</td>
+        <td>2 days</td>
+        <td>Maintaining</td>
+        <td>Beginner</td>
+        <td>4/0</td>
+        <td>alireza.koochali</td>
+        <td>Free</td>
+    </tr>
+   
+</tbody>
 
-            <h2 class="sansfont">Jefit Workout plans</h2>
-            <p class="sansfont pSize">Filter results down to your specific needs and find a new plan</p>
+    </table> 
 
-            <div class="filter">
-                <label>
-                    <input type="radio" name="gender" value="male">
-                    Male
-                </label>
-                <label>
-                    <input type="radio" name="gender" value="male">
-                    Female
-                </label>
-                <label>
-                    <input type="radio" checked name="gender" value="male">
-                    Both
-                </label>
-                <label>
-                    <input type="checkbox" checked>
-                    Routine Name
-                </label>
-                <label>
-                    <input type="checkbox" checked>
-                    Routine Tag
-                </label>
-                <label>
-                    <input type="checkbox">
-                    Routine Description
-                </label>
-                <input id="searchBar" type="search" placeholder="search...">
-                <button id="searchBtn">Search</button>
-            </div>
+    </div>
 
-            <div class="sort_div">
-                <ul> <span class="ulheading">All Categories:</span>
-                    <li class="liPoints">Maintaining</li>
-                    <li class="liPoints">Bulking</li>
-                    <li class="liPoints">Cutting</li>
-                    <li class="liPoints">Sport</li>
-                </ul>
-                <ul> <br> <span class="ulheading">Exp. Level:</span>
-                    <li class="liPoints">Beginner</li>
-                    <li class="liPoints">Intermediate</li>
-                    <li class="liPoints">Advanced</li>
-                </ul>
-                <ul> <br> <span class="ulheading">Type:</span>
-                    <li class="liPoints">Featured</li>
-                    <li class="liPoints">Elite</li>
-                    <li class="liPoints">Free</li>
-                </ul>
-                <ul> <br> <span class="ulheading">Sort by:</span>
-                    <li class="liPoints"> > Latest</li>
-                    <li class="liPoints">Most Popular</li>
-                    <li class="liPoints">Most Downloaded</li>
-                </ul>
-            </div>
-            <div class="filterDisplayDiv">
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="2">Plan Name</th>
-                            <th>Frequency</th>
-                            <th>Category</th>
-                            <th>Exp. Level</th>
-                            <th>Views/Downloads</th>
-                            <th>Created by</th>
-                            <th>Elite/Free</th>
-                        </tr>
-                    </thead>
-                    <tbody class="tBody">
-                        <tr>
-                            <td> <img style="width:10%;"
-                                    src="https://www.jefit.com/assets/img/routine/banner-large/wide_general_m.png"
-                                    alt=""></td>
-                            <td>alireza.koochali's 3 Days Plan</td>
-                            <td>2 days</td>
-                            <td>Maintaining</td>
-                            <td>Beginner</td>
-                            <td>4/0</td>
-                            <td>alireza.koochali</td>
-                            <td>Free</td>
-                        </tr>
+</div>
 
-                    </tbody>
-
-                </table>
-
-
-                <!-- <div id="filterDisplayHeading">
-            <h4></h4>
-            <h4>Plan Name</h4>
-            <h4>Frequency</h4>
-            <h4>Category</h4>
-            <h4>Exp. Level</h4>
-            <h4>Views/Downloads</h4>
-            <h4>Created by</h4>
-            <h4>Elite/Free</h4>
-        </div>
-
-        <div id="filterDisplayBody"> -->
-                <!-- <div id="filterDisplayData" class="bgclrGrey">
-                <img style="width: 5%;" src="https://www.jefit.com/assets/img/routine/banner-large/wide_general_m.png" alt="">
-                <p>alireza.koochali's 3 Days Plan</p>
-                <p>2 days</p>
-                <p>Maintaining</p>
-                <p>Beginner</p>
-                <p>4/0</p>
-                <p>alireza.koochali</p>
-                <p>Free</p>
-            </div> -->
-                <!-- </div> -->
-
-
-
-
-
-
-            </div>
-
-        </div>
+<div id="footer">
+</div>
 
 
 
@@ -151,6 +282,37 @@
 
 </body>
 <script type="module" src="../src/workout_page.js"></script>
-<script src="../src/navbarscripting.js"></script>
+<script src="./src/navbarscripting.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+//     $('.responsive').slick({
+//         infinite:true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3,
+//   autoplay: true,
+//   autoplaySpeed: 2000,
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         arrows: false,
+//         slidesToShow: 2
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         arrows: false,
+//         slidesToShow: 1
+//       }
+//     }
+//   ],
+// });
+</script>
 
 </html>

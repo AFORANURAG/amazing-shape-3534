@@ -27,4 +27,4 @@ function footer(){
     <a href="https://www.instagram.com/jefitapp/"><p>Instagram</p></a>
    </div>`
 }
-export default footer;
+export  {footer};
