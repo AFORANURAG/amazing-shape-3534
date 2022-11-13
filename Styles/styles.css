@@ -21,6 +21,10 @@ position: relative;
   padding-right: 1%;
 }
 
+.navbar :hover{
+  cursor: pointer;
+}
+
 .navbar a {
   float: left;
   display: block;
