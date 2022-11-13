@@ -69,9 +69,10 @@ class User {
                 alert('user already exists')
             }
             else {
-                alert('Sign up successful you are redirecting to home page')
+                alert('Sign up successful you are redirecting to login page')
+                window.location.reload();
 
-                window.location.href = 'navbar.html'
+                window.location.href = 'login.html'
                 // let signup = document.getElementById('signup')
                 // signup.innerText=""
             }
