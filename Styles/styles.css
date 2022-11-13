@@ -17,8 +17,9 @@ position: relative;
 
 .navbar {
   width: 100%;
+  display: flex;
   background-color: #317cff;
-  height: 110px;
+  height: 120px;
   padding-right: 1%;
 }
 
@@ -37,7 +38,6 @@ position: relative;
 }
 
 .dropdown {
-float: left;
 margin-left: 1.5%;
 position: relative;
 bottom: 30px;
@@ -217,7 +217,15 @@ and the other class is going to make the navbar suitable for small screen
 */
 
 @media screen and (max-width: 900px) {
-
+body{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+display: block;
+position: relative;
+bottom: 160px;
+}
   .navbar a:not(:first-child),
   .dropdown .dropbtn,#dropdown1 #dropbtn1 {
     display: none;
@@ -229,8 +237,9 @@ and the other class is going to make the navbar suitable for small screen
   }
 
   #ourlogo {
+    height: 120px;
     margin-left: 0px;
-    width: 30%;
+    width: 120px;
   }
 }
 
@@ -279,8 +288,9 @@ and the other class is going to make the navbar suitable for small screen
   }
 
   .navbar.ournavbar>#ourlogo {
-    width: 30%;
+    width: 20%;
     margin-left: 0px;
+    margin-bottom: 15px;
   }
 
   #getappmain {
