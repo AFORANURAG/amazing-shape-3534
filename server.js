@@ -11,11 +11,11 @@ app.use(express.static("public"))
 
 const store=new Map([[1,{
 price:10000,
-name:"learn react today"
+name:"elite subscription"
 
 }],[2,{
 price:20000,
-name:"learn spring boot"
+name:"premium subscription"
 
 }]])
 
