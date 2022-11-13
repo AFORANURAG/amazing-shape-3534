@@ -8,6 +8,8 @@ body{
     height: 900px;
     background-color:#184fa3;
     display: flex;
+    position: relative;
+    top:-10px ;
 }
 #container>#c1{
     border: 0px solid blue;
@@ -297,6 +299,8 @@ body{
             height: auto;
             background-color:#184fa3;
            display: inline-block;
+           position: relative;
+           top:-70px ;
         }
         /* #container>#c1{
             border: 2px solid blue;
@@ -565,6 +569,8 @@ body{
             height: auto;
             background-color:#184fa3;
            display: inline-block;
+           position: relative;
+    top:-50px ;
         }
         /* #container>#c1{
             border: 2px solid blue;
