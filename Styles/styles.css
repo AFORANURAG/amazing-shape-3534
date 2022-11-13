@@ -133,6 +133,7 @@ bottom: 30px;
 
 .dropdown:hover .dropdown-content {
   display: block;
+  transition: 1s;
 }
 
 #dropdown1:hover #dropdown-content1{
