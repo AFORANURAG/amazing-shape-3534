@@ -27,12 +27,12 @@ function navbar() {
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-    <a href="#">Jefit Community</a>
-    <a href="#">Blog</a>
+    <a href="jefit_community.html">Jefit Community</a>
+    <a href="community.blogs.html">Blog</a>
   </div>
 
 </div>
-<a href="">Coach</a>
+<a href="coach.html">Coach</a>
 <a href="">Elite</a>
 
 <div id="dropdown1">
