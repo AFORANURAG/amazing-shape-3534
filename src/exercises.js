@@ -1,5 +1,5 @@
-
 import {navbar} from "../components/navbar.js"
+import {footer} from "../components/footer.js"
 document.getElementById("navbarid").innerHTML=navbar()
 
 const options = {
@@ -13,11 +13,11 @@ const options = {
 
 
 
-// //-------------------------------------> exercises by equipment
-// fetch('https://exercisedb.p.rapidapi.com/exercises/equipment/assisted', options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
+//-------------------------------------> exercises by equipment
+fetch('https://exercisedb.p.rapidapi.com/exercises/equipment/assisted', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
 
 // //.....list by target muscles 
 // fetch('https://exercisedb.p.rapidapi.com/exercises/targetList', options)
@@ -287,3 +287,4 @@ div.append(image$)
 document.getElementById("options").append(image$)
 });
 }
+document.getElementById("footer").innerHTML=footer()

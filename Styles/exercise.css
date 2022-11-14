@@ -77,6 +77,14 @@ padding-left: 10%;
 }#options>div{
   border: 1px solid black;  
 }
+#bodybuilder{
+ border: 1px solid black;
+    
+}#bodyimage{
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
 .images{
     width: 30%;
     height: 100px;
