@@ -1,7 +1,7 @@
 function navbar() {
-  return `
+return `
 
-<img src="https://i.ibb.co/rb4xZ3X/warrior.png" id="ourlogo" alt="warrior" />
+<img src="https://i.ibb.co/rb4xZ3X/warrior.png"  id="ourlogo" alt="warrior" />
 <div class="dropdown" id="getappmain">
   <button class="dropbtn" id="getapp">Get App
     <i class="fa fa-caret-down"></i>
@@ -17,10 +17,10 @@ function navbar() {
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-    <a href="#">Pro-designed Plans </a>
+    <a href="workout_page.html">Pro-designed Plans </a>
   </div>
 </div>
-<a href="">Exercise</a>
+<a href="exercise.html">Exercise</a>
 <!-- anurag Upadhyay -->
 <div class="dropdown">
   <button class="dropbtn">Community
@@ -33,22 +33,21 @@ function navbar() {
 
 </div>
 <a href="coach.html">Coach</a>
-<a href="">Elite</a>
+<a href="payment.html">Elite</a>
 
 <div id="dropdown1">
   <button id="dropbtn1">Login</button>
   <div id="dropdown-content1">
-    <a href="#">Notification</a>
-    <a href="#"> Friends </a>
-    <a href="">Settings</a>
-    <a id="signOut" href="">Sign out</a>
+  <a href="#">Notification</a>
+  <a href="#"> Friends </a>
+  <a href="">Settings</a>
+  <a id="signOut" href="">Sign out</a>
 
-  </div>
+</div>
 </div>
 
 <a href="signUp.html"><button id="signup">Sign Up</button></a>
 <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="navbar()">&#9776;</a>
-
 `
 }
 
