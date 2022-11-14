@@ -18,13 +18,13 @@ color:black;
 background-color:white;
 border: 2px solid whitesmoke;
 border-right:none ;
+background-color: #5599ff;
 }
 #plan1:hover{
 cursor: pointer;
 
 }
 #plan2{
-    background-color: #5599ff;
     border: 1px solid black;
 text-align: center;
 border: 2px solid whitesmoke;
