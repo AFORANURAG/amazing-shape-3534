@@ -87,6 +87,8 @@ font-size: 13px;
 }
 
 
+
+
 #midSection{
 width:70%;
 margin-top: 80px !important;
@@ -253,4 +255,81 @@ background-color: white;
  padding:70%;
 }
 }
+
+
+
+/* navbar css */
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+#ourlogo {
+  float: left;
+  width: 8.0%;
+  /* border: 1px solid red; */
+  height: 100px;
+  margin-left: 2.5%;
+position: relative;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  background-color: #317cff;
+  height: 120px;
+  padding-right: 1%;
+}
+
+.navbar :hover{
+  cursor: pointer;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+
+
+.navbar .icon {
+  display: none;
+}
+
+.dropdown {
+margin-left: 1.5%;
+position: relative;
+bottom: 30px;
+
+/* float left property is acting like it is making things inline or something like that because div is block level but after
+            doing float left for all dropdowns everything is becomng like inline. */
+}
+
+#dropdown1{
+  float: left;
+    margin-left: 1.5%;
+  position: relative;
+bottom: 30px;
+}
+.navbar>a{
+  margin-bottom: 30px;
+}
+
 
