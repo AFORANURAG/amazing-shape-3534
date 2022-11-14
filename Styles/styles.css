@@ -142,6 +142,7 @@ bottom: 30px;
 
 #dropdown1:hover #dropdown-content1{
   z-index: 123123123;
+  display: block;
 }
 
 /* second dropdown ( copy paste from first one) */
@@ -208,11 +209,13 @@ bottom: 30px;
   text-align: center;
   border: 1px solid black;
   background-color: white;
-  height: 45px;
-  font-size: 30px;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
   border: 1px solid white;
   border-radius: 10px;
 background-color: white;
+margin-top: -9px;
 }
 
 /* finally media queries for responsiveness*/
