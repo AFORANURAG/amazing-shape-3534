@@ -109,6 +109,25 @@ color: #ABABAB;
     
     }
 
+    .card{
+      width: 95% ;
+margin-top: 20px;
+  }
+
+  .slick-prev:before {
+color: black;
+}
+
+.slick-next:before {
+  color: black;
+}
+
+strong{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
 #filterDisplayHeading{
 display: flex;
 height:20px;
