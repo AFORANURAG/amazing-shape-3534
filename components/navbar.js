@@ -2,7 +2,6 @@
 
 function navbar() {
 return `
-
 <img src="https://i.ibb.co/rb4xZ3X/warrior.png"  id="ourlogo" alt="warrior" />
 <div class="dropdown" id="getappmain">
   <button class="dropbtn" id="getapp">Get App
