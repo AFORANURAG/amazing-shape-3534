@@ -77,7 +77,7 @@ const getProfile = async (Username, token) => {
 
     if (profileData.username !== undefined) {
         localStorage.setItem("Jefit_username", Username);
-        window.location.href = "homepage.html";
+        window.location.href = "index.html";
 
         // let showname = document.getElementById('showname');
         // showname.innerText = profileData.username;
