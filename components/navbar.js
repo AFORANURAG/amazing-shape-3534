@@ -2,8 +2,9 @@
 
 function navbar() {
 return `
-
+<a href = "http://localhost:5500/amazing-shape-3534/" > 
 <img src="https://i.ibb.co/rb4xZ3X/warrior.png"  id="ourlogo" alt="warrior" />
+</a>
 <div class="dropdown" id="getappmain">
   <button class="dropbtn" id="getapp">Get App
     <i class="fa fa-caret-down"></i>

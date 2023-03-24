@@ -5,12 +5,13 @@ body {
 }
 #ourlogo {
   float: left;
-  width: 8.0%;
-  /* border: 1px solid red; */
-  height: 100px;
-  margin-left: 2.5%;
-position: relative;
+  width:100%;
+    margin-top: -30%;
+    height: 100px;
+    margin-left: 2.5%;
+  position: relative; 
 }
+
 
 .navbar {
   width: 100%;
