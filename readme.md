@@ -2,6 +2,8 @@
 <H1>Welcome to this repository and we are excited to share our project with you.Have a great look! </H1>
 ---
 
+### deployed Link - https://aforanurag.github.io/amazing-shape-3534/
+
 ### :man_technologist: About Project :
 <h3> A Clone of A Fitness Website.This Project has been Built by a team of four Stack web developer In 5 days </h3>
 <h2> A Fully responsive project </h2>
